@@ -19,13 +19,18 @@ let uniquearr = [...new Set(arr)];
 console.log(uniquearr);
 
 const arr5 = ["the", "way", "x", 4];
-let find= arr5.search("way");
-if
- (arr5.includes("way")){
-onsole.log(find);}
+// let x= arr5.find(arr5[1]);
+// console.log(x)
+let y= "way"
+
+if(arr5.indexOf(y)>-1){
+  console.log(y)
+}
+ 
+  
 else {console.log("the search word was not found");
 
 }
 let word = "sevink"
-word.sort()
-console.log(word)
+var sortedstring=word.split("").sort().join("")
+ console.log(sortedstring)
